@@ -1,1 +1,1 @@
-web: gunicorn invixapi.wsgi -k gevent
+web: gunicorn invixapi.wsgi
