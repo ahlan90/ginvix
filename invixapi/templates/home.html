@@ -1,0 +1,28 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title>GinVix</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="{% static 'front/favicon.ico' %}">
+</head>
+
+<body>
+	<app-root></app-root>
+    <script src="{% static 'front/runtime-es2015.js' %}" type="module"></script>
+    <script src="{% static 'front/runtime-es5.js' %}" nomodule defer></script>
+    <script src="{% static 'front/polyfills-es5.js' %}" nomodule defer></script>
+    <script src="{% static 'front/polyfills-es2015.js' %}" type="module"></script>
+    <script src="{% static 'front/styles-es2015.js' %}" type="module"></script>
+    <script src="{% static 'front/styles-es5.js' %}" nomodule defer></script>
+    <script src="{% static 'front/vendor-es2015.js' %}" type="module"></script>
+    <script src="{% static 'front/vendor-es5.js' %}" nomodule defer></script>
+    <script src="{% static 'front/main-es2015.js' %}" type="module"></script>
+    <script src="{% static 'front/main-es5.js' %}" nomodule defer></script></body>
+</body>
+
+</html>
