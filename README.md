@@ -1,8 +1,8 @@
 # Ginvix
 Sistema comunitário para compartilhar eventos em geral
 
-# Backend:
+## Backend:
 Django 2.2 + Django Rest Framework
 
-# Frontend:
-Angular
+## Frontend:
+Angular 2
